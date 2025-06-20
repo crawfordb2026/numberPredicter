@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+pip-log.txt
+
+# Virtual environments
+venv/
+ENV/
+
+# Data files (might be large)
+data/
+
+# Test images (but keep the model file)
+test*.png
+test*.jpg
+test*.jpeg
+*.jpg
+*.jpeg
+# Allow .pth model files
+!*.pth
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo 
